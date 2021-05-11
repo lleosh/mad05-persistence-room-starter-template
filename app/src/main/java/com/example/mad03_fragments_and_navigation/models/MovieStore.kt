@@ -34,7 +34,7 @@ data class MovieStore(val myMovies: MutableList<Movie> = mutableListOf()){
             movie2.imageId = R.drawable.knivesout
 
             val movie3 = Movie("Parasite", "Jobless, penniless, and, above all, hopeless, the unmotivated patriarch, Ki-taek, and his equally unambitious family--his supportive wife, Chung-sook; his cynical twentysomething daughter, Ki-jung, and his college-age son, Ki-woo--occupy themselves by working for peanuts in their squalid basement-level apartment. Then, by sheer luck, a lucrative business proposition will pave the way for an ingeniously insidious scheme, as Ki-woo summons up the courage to pose as an English tutor for the teenage daughter of the affluent Park family. Now, the stage seems set for an unceasing winner-take-all class war. How does one get rid of a parasite?")
-            movie3.id = 1
+            movie3.id = 3
             movie3.actors.addAll(listOf("Kang-ho Song", "Lee Sun-kyun", "Yeo-jeong Cho"))
             movie3.genres = listOf("Comedy", "Thriller", "Drama")
             movie3.creators.add("Bong Joon Ho")
